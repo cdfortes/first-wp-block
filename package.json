@@ -1,0 +1,29 @@
+{
+  "name": "firstblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^22.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdfortes/first-wp-block.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdfortes/first-wp-block/issues"
+  },
+  "homepage": "https://github.com/cdfortes/first-wp-block#readme",
+  "dependencies": {
+    "@wordpress/block-editor": "^8.5.1",
+    "@wordpress/blocks": "^11.5.1"
+  }
+}
